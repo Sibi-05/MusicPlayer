@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin:00%;
+    padding:0%;
+    box-sizing: border-box;
+   font-family: Poppins;
+   font-weight: 30%;
+   font-size:medium;
+}
+.tittle{
+    height:60px;
+    width: 177vh;
+    background-color:black;
+}
+.left-container{
+    height: 700px;
+    width: 350px;
+    background-color: black;
+    border: #fff solid 1px;
+    overflow:scroll;
+    position: absolute;
+    padding: 10px;
+}
+.main{
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    height: 703px;
+    width: 1089px;
+    margin-left: 350px;
+    border: #fff solid 1px;
+}
+.post{
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+}
+ul li{
+    background-color: aliceblue;
+    border: black solid 2px;
+    border-radius: 10px;
+    list-style: none;
+    font-size:17px;
+    padding: 10px 8px 12px 10px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+}
+.Mname{
+    position: absolute;
+    padding: 5px 10px 12px 10px;
+    text-align: center;
+}
+.disp{
+    height: 700px;
+    width: 130vh;
+}
+.cont{
+    height: 700px;
+    width: 1080px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.aud{
+    margin-top: 50px;
+    border-radius: 30px;
+    position: relative;
+    width: 600px;
+    bottom: 20px;
+}
+audio{
+    padding: 1px;
+    color: aqua;
+}
+audio::-webkit-media-controls-panel{
+    background-color: rgb(255, 255, 255);
+}
+audio::-webkit-media-controls-play-button{
+    background-color: aqua;
+    border-radius: 50px;
+}
+audio::-webkit-media-controls-current-time-display{
+color: #000000;
+}
+audio::-webkit-media-controls-time-remaining-display{
+    color: #000000;
+}
+audio::-webkit-media-controls-timeline{
+    border-radius:40px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    margin-left: 10px;
+}
+.image{
+    position: relative;
+    margin-top:200px ;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.font{
+    color: #fff;
+    text-shadow: 3px 3px 6px rgb(0, 0, 0);
+    font-size: xx-large;
+    font-family:'Poppins';
+    position: relative;
+}
+.tittle{
+    color: #fff;
+    text-align: center;
+}
+.tittle h1{
+    margin-top: 20px;
+    font-size:x-large;
+    font-family:'Poppins';
+}
