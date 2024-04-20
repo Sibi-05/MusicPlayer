@@ -111,6 +111,7 @@ audio::-webkit-media-controls-timeline{
     text-align: center;
 }
 .tittle h1{
+    font-weight:bold;
     margin-top: 20px;
     font-size:x-large;
     font-family:'Poppins';
